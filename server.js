@@ -30,7 +30,8 @@ const corsOptions = {
     process.env.CLIENT_URL || 'https://arboreal-new.onrender.com',
     'https://admin.aagaurstudio.com', 
     'https://www.aagaurstudio.com','https://aagaurstudio.com',// Main frontend on Render
-    'https://aagaur-admin.onrender.com', // Admin panel on Render
+    'https://aagaur-admin.onrender.com','https://updated-arboreal-frontend.onrender.com',
+     // Admin panel on Render
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
